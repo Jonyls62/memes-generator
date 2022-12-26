@@ -3,15 +3,14 @@ import TextMeme from "./TextMeme";
 const MostrarMeme = (imgmemes) => {
   return (
     <>
-    <div className="img_container row just d-flex justify-content-around" id="img_container">
-        <figure id="figure"  className="col-12 pt-3 col-md-5">
-            <img src={`${imgmemes.imgmemes}`}id="ubicar"  className="col-12"
+    <div className="img_container" id="img_container">
+        <figure id="figure"  className="w-100 m-0">
+            <img src={`${imgmemes.imgmemes}`}id="ubicar"  className="w-100"
             alt="imagen" />
         </figure>
-    <div className="border border-dark rounded p-2 mt-3 col-12 col-md-4 ">
+        <h6 data-html2canvas-ignore="true" class="mt-1 mb-0">Arrastrar el texto para ubicarlo</h6>
        <TextMeme/>
        <TextMeme/>
-    </div>
     </div>
     </>
   )
