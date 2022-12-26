@@ -2,12 +2,12 @@
   "name": "memes-generator",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://Jonyls62.github.io/memes-generator",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "gh-pages": "^4.0.0",
