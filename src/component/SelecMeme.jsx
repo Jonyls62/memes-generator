@@ -33,14 +33,13 @@ const SelecMeme = () => {
   return (
     <>
       <div id="eleccionimg">
-        <h5>Generador de Meme</h5>
         <div className="dropdown">
           <button
             className="btn dropdown-toggle"
             type="button"
             data-bs-toggle="dropdown"
             aria-expanded="false">
-            Elegir imagen
+            Elegir ptantilla
           </button>
           <ul className="dropdown-menu dropdown-menu-center">
             {memes.map((op) => (
